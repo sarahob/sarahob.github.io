@@ -18,6 +18,7 @@ body {
   background: url('../assets/me.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
   height: 270px;
   width: 270px;
   border-radius: 100%;
