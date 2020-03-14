@@ -1,0 +1,117 @@
+body {
+  font-size: 16px;
+  background: #121212;
+  color: #f4f6f7;
+  font-family: 'Indie Flower'; }
+
+p {
+  margin: 0px; }
+
+h2 {
+  font-weight: 500;
+  margin: 0px;
+  color: #bb8fce; }
+
+h3 {
+  font-weight: 500;
+  margin: 0px;
+  font-size: 3.5rem;
+  color: #bb8fce; }
+
+.link {
+  text-decoration: underline;
+  color: #f4f6f7; }
+  .link:hover {
+    color: #bb8fce; }
+
+h2 {
+  font-size: 5rem; }
+
+.container {
+  margin: 0px auto;
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: 15% 68% 8% auto;
+  grid-template-rows: 100px 100px 600px;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px; }
+
+.row {
+  height: auto;
+  width: auto; }
+
+.icon-menu {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  align-self: center;
+  justify-self: end; }
+
+.header {
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: start;
+  align-self: center; }
+
+.intro {
+  grid-column: 2;
+  grid-row: 3;
+  display: inline-grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 600px; }
+
+.photo-container {
+  position: relative;
+  grid-column: 1;
+  max-height: 350px;
+  justify-self: center;
+  align-self: center; }
+
+.photo {
+  background: url("../assets/me-and-coffee.jpg") top center no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  border: 3px solid #bb8fce; }
+
+.bio {
+  grid-column: 2;
+  font-size: 2.5rem; }
+
+.bio p {
+  margin: 10% 2%; }
+
+.icon-container {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%; }
+
+.icon-container-small {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  cursor: pointer; }
+
+.icon-github {
+  display: inline-block;
+  background: url(../assets/github-icon.svg) top center no-repeat;
+  background-size: contain;
+  height: 36px;
+  width: 36px;
+  cursor: pointer; }
+
+.icon-linkedin {
+  display: inline-block;
+  background: url(../assets/linkedin-icon.svg) top center no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  cursor: pointer; }
+
+.icon-twitter {
+  display: inline-block;
+  background: url(../assets/twitter-icon.svg) top center no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  cursor: pointer; }

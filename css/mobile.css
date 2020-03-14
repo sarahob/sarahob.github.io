@@ -1,0 +1,112 @@
+body {
+  font-size: 16px;
+  background: #121212;
+  color: #f4f6f7;
+  font-family: 'Indie Flower'; }
+
+p {
+  margin: 0px; }
+
+h2 {
+  font-weight: 500;
+  margin: 0px;
+  color: #bb8fce; }
+
+h3 {
+  font-weight: 500;
+  margin: 0px;
+  font-size: 3.5rem;
+  color: #bb8fce; }
+
+.link {
+  text-decoration: underline;
+  color: #f4f6f7; }
+  .link:hover {
+    color: #bb8fce; }
+
+h2 {
+  font-size: 3rem; }
+
+.container {
+  margin: 0px auto;
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 80px auto auto 60px;
+  grid-row-gap: 10px; }
+
+.row {
+  height: auto;
+  width: auto; }
+
+.icon-menu {
+  grid-column: 1;
+  grid-row: 4;
+  align-self: center;
+  justify-self: center; }
+
+.header {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+  align-self: center; }
+
+.intro {
+  grid-column: 1;
+  grid-row: 2/3;
+  display: inline-grid;
+  grid-template-columns: 1;
+  grid-template-rows: 2; }
+
+.photo-container {
+  position: relative;
+  grid-column: 1;
+  grid-row: 1;
+  max-height: 300px;
+  justify-self: center;
+  align-self: center; }
+
+.photo {
+  background: url("../assets/me-and-coffee.jpg") top center no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border: 3px solid #bb8fce; }
+
+.bio {
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 1.3rem;
+  justify-self: center;
+  align-self: center; }
+  .bio p {
+    margin: 10%;
+    text-align: center; }
+
+.icon-container {
+  display: inline-flex; }
+
+.icon-github {
+  display: inline-block;
+  background: url(../assets/github-icon.svg) top center no-repeat;
+  background-size: contain;
+  height: 36px;
+  width: 36px;
+  cursor: pointer; }
+
+.icon-linkedin {
+  display: inline-block;
+  background: url(../assets/linkedin-icon.svg) top center no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  cursor: pointer; }
+
+.icon-twitter {
+  display: inline-block;
+  background: url(../assets/twitter-icon.svg) top center no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  cursor: pointer; }

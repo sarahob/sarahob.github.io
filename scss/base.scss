@@ -1,0 +1,36 @@
+$heading-color: #bb8fce;
+$text-color: #f4f6f7;
+$bg-color: #121212;
+
+body {
+  font-size: 16px;
+  background: $bg-color;
+  color: $text-color;
+  font-family: 'Indie Flower';
+}
+
+p {
+  margin: 0px;
+}
+
+h2 {
+  font-weight: 500;
+  margin: 0px;
+  color: $heading-color;
+}
+
+h3 {
+  font-weight: 500;
+  margin: 0px;
+  font-size: 3.5rem;
+  color: $heading-color;
+}
+
+.link {
+  text-decoration: underline;
+  color: $text-color;
+
+  &:hover {
+    color: $heading-color;
+  }
+}
