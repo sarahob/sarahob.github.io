@@ -200,22 +200,31 @@ export default function Home() {
               <a
                 href="https://www.linkedin.com/in/sarah-o-brien-50752086/"
                 target="_blank"
+                rel="noreferrer"
               >
                 LinkedIn
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/sarocodes" target="_blank">
+              <a
+                href="https://twitter.com/sarocodes"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Twitter
               </a>
             </li>
             <li>
-              <a href="https://github.com/sarahob" target="_blank">
+              <a
+                href="https://github.com/sarahob"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Github
               </a>
             </li>
             <li>
-              <a href="https://dev.to/sarahob" target="_blank">
+              <a href="https://dev.to/sarahob" target="_blank" rel="noreferrer">
                 Blog
               </a>
             </li>

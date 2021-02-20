@@ -17,9 +17,10 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           <title>Sarah Codes</title>
+          <link rel="shortcut icon" href="/favicon.ico" />
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
